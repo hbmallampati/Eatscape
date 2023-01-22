@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 32
+    defaultConfig {
+        applicationId "edu.utexas.cs.zhitingz.fcsql"
+        minSdkVersion 30
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+allprojects {
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+    }
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+
+    testImplementation 'junit:junit:4.13.2'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    // Kotlin
+    implementation "androidx.sqlite:sqlite-ktx:2.2.0"
+}
+repositories {
+    mavenCentral()
+}
