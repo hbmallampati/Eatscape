@@ -1,4 +1,4 @@
-Restaurant finder
+Eatscape
 
 <img width="307" alt="image" src="https://user-images.githubusercontent.com/98439391/213943696-07c8d785-9824-46f2-a0dc-20102d7621b9.png">
 <img width="307" alt="image" src="https://user-images.githubusercontent.com/98439391/213943698-71de3b5b-8094-462f-9839-d4d524f83c9a.png">
