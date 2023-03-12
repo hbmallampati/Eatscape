@@ -1,4 +1,18 @@
-Eatscape
+# Eatscape
+The Android app helps users find restaurants based on their location and/or cuisine selection. Users can also fetch the top N restaurants based on their preferences. The app uses the Yelp database in the backend and follows the MVVM architecture pattern. SQLite is used for local storage, and Jetpack components are used for easy development and maintenance.
+
+### Features
+* Location-based restaurant search
+* Cuisine-based restaurant search
+* Top N restaurant search
+* Display of restaurant details such as - restaurant contact number, restaurant website link, expected price range, address
+* Filter search results based on various criteria
+
+### Technology Stack
+* MVVM architecture pattern
+* Yelp API for restaurant data
+* SQLite for local storage
+* Jetpack components such as LiveData, ViewModel, and Room for easier development and maintenance
 
 <img width="307" alt="image" src="https://user-images.githubusercontent.com/98439391/213943696-07c8d785-9824-46f2-a0dc-20102d7621b9.png">
 <img width="307" alt="image" src="https://user-images.githubusercontent.com/98439391/213943698-71de3b5b-8094-462f-9839-d4d524f83c9a.png">
