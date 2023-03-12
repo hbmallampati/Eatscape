@@ -17,7 +17,7 @@ The Android app helps users find restaurants based on their location and/or cuis
 ### Functionality
 App loads with selection options for user. The user can set location, can pick any cuisine if he like, limit the search results to sone integer number n, if want to can sort the results in ascending or descending order of prices.
 <p align="center">
-  <img width="250" height="400" alt="image" src="https://user-images.githubusercontent.com/98439391/213943696-07c8d785-9824-46f2-a0dc-20102d7621b9.png">
+  <img width="250" height="450" alt="image" src="https://user-images.githubusercontent.com/98439391/213943696-07c8d785-9824-46f2-a0dc-20102d7621b9.png">
   <img width="307" alt="image" src="https://user-images.githubusercontent.com/98439391/213943698-71de3b5b-8094-462f-9839-d4d524f83c9a.png">
   <img width="307" alt="image" src="https://user-images.githubusercontent.com/98439391/213943704-45989055-acab-4a4d-ab2e-8fb74b0941de.png">
  </p>
